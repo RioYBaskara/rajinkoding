@@ -23,7 +23,7 @@ Untuk meng-clone repositori ini, ikuti langkah-langkah berikut:
 4. Jalankan perintah berikut:
 
 ```bash
-git clone https://github.com/alamat/repo.git
+git clone https://github.com/RioYBaskara/rajinkoding.git
 ```
 
 ### Persyaratan
