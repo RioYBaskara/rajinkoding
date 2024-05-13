@@ -2,6 +2,11 @@
 
 Projek ini adalah Sistem Manajemen Inventaris yang dibangun dengan menggunakan Laravel. Terdapat lima tabel utama: `Siswa`, `Kategori`, `Barang`, `BarangMasuk`, dan `BarangKeluar`.
 
+### Foto
+- ![Screenshot_341](https://github.com/RioYBaskara/rajinkoding/assets/156874101/382c653e-0c4e-4799-b326-7818b53ef585)
+- ![Screenshot_342](https://github.com/RioYBaskara/rajinkoding/assets/156874101/6240f9f7-587d-41f7-9afe-93241a2d0b11)
+- ![Screenshot_347](https://github.com/RioYBaskara/rajinkoding/assets/156874101/f8a2f73e-b689-474b-846a-104fc368e2a8)
+
 ### Fitur
 
 1. **Autentikasi Pengguna**: Pengguna dapat melakukan autentikasi untuk mengakses sistem.
