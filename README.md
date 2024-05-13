@@ -5,8 +5,8 @@ Projek ini adalah Sistem Manajemen Inventaris yang dibangun dengan menggunakan L
 ### Fitur
 
 1. **Autentikasi Pengguna**: Pengguna dapat melakukan autentikasi untuk mengakses sistem.
-2. **Integritas Referensial**: Menjaga integritas data dengan menerapkan konstrain integritas referensial antar tabel terkait.
-3. **Pemicu (Triggers)**: Menggunakan pemicu untuk melakukan tindakan otomatis saat terjadi suatu peristiwa di database.
+2. **Referential Integrity**: Menjaga integritas data dengan menerapkan konstrain integritas referensial antar tabel terkait.
+3. **Triggers**: Menggunakan trigger untuk melakukan tindakan otomatis saat terjadi suatu peristiwa di database.
 4. **Operasi CRUD**: Mendukung operasi CRUD (Create, Read, Update, Delete) untuk mengelola data dengan efektif.
 
 ### Template
