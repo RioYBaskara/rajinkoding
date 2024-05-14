@@ -13,6 +13,7 @@ Projek ini adalah Sistem Manajemen Inventaris yang dibangun dengan menggunakan L
 2. **Referential Integrity**: Menjaga integritas data dengan menerapkan konstrain integritas referensial antar tabel terkait.
 3. **Triggers**: Menggunakan trigger untuk melakukan tindakan otomatis saat terjadi suatu peristiwa di database.
 4. **Operasi CRUD**: Mendukung operasi CRUD (Create, Read, Update, Delete) untuk mengelola data dengan efektif.
+5. **API untuk Tabel Kategori**: Menyediakan API untuk data dalam tabel `Kategori`.
 
 ### Template
 
@@ -82,3 +83,7 @@ php artisan serve
 Akses aplikasi melalui web browser Anda di `http://localhost:8000`.
 
 Jangan lupa Bismillah.
+
+### API untuk Tabel Kategori
+
+- **.../api/kategori**: Mendapatkan daftar semua data kategori.
