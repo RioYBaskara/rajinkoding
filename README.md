@@ -56,6 +56,11 @@ composer install
 ```
 
 3. **Salin Variabel Lingkungan**: Duplikat file `.env.example` dan ganti namanya menjadi `.env`. Perbarui detail konfigurasi database (DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD) di file ini.
+
+```bash
+cp .env.example .env
+```
+
 4. **Menghasilkan Kunci Aplikasi**: Jalankan perintah berikut untuk menghasilkan kunci aplikasi yang unik:
 
 ```bash
