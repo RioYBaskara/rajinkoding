@@ -44,4 +44,4 @@ Route::resource('kategori', KategoriController::class)->middleware('auth');
 Route::resource('barangmasuk',BarangMasukController::class)->middleware('auth');
 Route::resource('barangkeluar',BarangKeluarController::class)->middleware('auth');
 
-
+Route::get('/get-categories', 'BarangController@getCategories')->name('get-categories');
