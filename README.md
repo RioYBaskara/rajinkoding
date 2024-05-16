@@ -87,3 +87,4 @@ Jangan lupa Bismillah.
 ### API untuk Tabel Kategori
 
 - **.../api/kategori**: Mendapatkan daftar semua data kategori.
+- **.../api/kategori/{kategori_id}**: Mendapatkan daftar semua data kategori.
