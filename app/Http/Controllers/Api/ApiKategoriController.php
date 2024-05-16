@@ -28,9 +28,15 @@ class ApiKategoriController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show($id)
     {
-        //
+        $kategori = Kategori::find($id);
+
+        if (is_null($kategori)) {
+            return response()->json(['message' => 'Kategori not found'], 404);
+        }
+
+        return response()->json(['data' => $kategori]);
     }
 
     /**
