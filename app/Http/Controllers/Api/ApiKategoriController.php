@@ -33,7 +33,7 @@ class ApiKategoriController extends Controller
         $kategori = Kategori::find($id);
 
         if (is_null($kategori)) {
-            return response()->json(['message' => 'Kategori not found'], 404);
+            return response()->json(['message' => 'Kategori tidak ditemukan'], 404);
         }
 
         return response()->json(['data' => $kategori]);
