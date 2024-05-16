@@ -42,9 +42,17 @@ class ApiKategoriController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, $id)
     {
-        //
+        $kategori = Kategori::find($id);
+
+        if (is_null($kategori)) {
+            return response()->json(['status' => 'Kategori tidak ditemukan'], 404);
+        }
+
+        $kategori->update($request->all());
+
+        return response()->json(['status' => 'Kategori berhasil diubah'], 200);
     }
 
     /**
