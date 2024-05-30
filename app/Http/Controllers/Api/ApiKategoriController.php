@@ -62,4 +62,11 @@ class ApiKategoriController extends Controller
     {
         //
     }
+
+    public function getAPIKategori(){
+        $kategori = Kategori::all();
+        $data = array("data"=>$kategori);
+
+        return response()->json($data);
+    }
 }

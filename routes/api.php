@@ -20,3 +20,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::apiResource('kategori', ApiKategoriController::class);
+
+// API Tanpa resource()
+Route::get('apikategori', [ApiKategoriController::class, 'getAPIKategori']);
